@@ -1,9 +1,9 @@
 # kernel config
 
 # How to Build (It was built like this but not tested)
-sudo apt-get install git fakeroot build-essential ncurses-dev xz-utils libssl-dev bc
-
-sudo apt-get install kernel-package
+. sudo apt-get install git fakeroot build-essential ncurses-dev xz-utils libssl-dev bc
+.
+. sudo apt-get install kernel-package
 
 gpg2 --keyserver hkp://keys.gnupg.net --recv-keys 38DBBDC86092693E
 

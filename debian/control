@@ -1,0 +1,15 @@
+Package: linux-image-4.9.14
+Source: linux-source-4.9.14
+Version: 1.0~komutan
+Architecture: amd64
+Maintainer: Aydin Yakar <aydin@komutan.org>
+Installed-Size: 169160
+Pre-Depends: debconf (>= 0.2.17) | debconf-2.0
+Depends: coreutils (>= 5.96)
+Recommends: kernel-common
+Suggests: fdutils, linux-doc-4.9.14 | linux-source-4.9.14, linux-image-4.9.14-dbg, linux-manual-4.9.14
+Provides: linux-image, linux-image-4.9, linux-modules-4.9
+Section: kernel
+Priority: optional
+Description: Linux kernel binary image for Komutan Linux
+ This package contains the Linux kernel image for version 4.9.14.

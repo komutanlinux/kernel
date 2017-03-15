@@ -18,5 +18,5 @@ cp -v /boot/config-$(uname -r) .config
 
 #make menuconfig
 make-kpkg clean
-fakeroot make-kpkg --initrd --revision=1.0.NAS kernel_image kernel_headers -j 16 #16 core
+fakeroot make-kpkg --initrd --revision=1.0~komutan kernel_image kernel_headers -j 16 #16 core
 ```

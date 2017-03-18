@@ -34,7 +34,7 @@ cd linux-$KERNEL
 
 
 # kernel config for Komutan Linux based Debian Jessie
-[[ ! -f .config ]] && wget https://raw.githubusercontent.com/komutanlinux/kernel/master/.config
+[[ ! -f .config ]] && wget -O .config https://raw.githubusercontent.com/komutanlinux/kernel/master/config 
 
 
 # maintainer and email for deb package
